@@ -2,9 +2,12 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Selamat Datang di BELATI
+
+Ini adalah kumpulan
 
 Let's discover **Docusaurus in less than 5 minutes**.
+apa aja yang dibutuhkan.
 
 ## Getting Started
 
