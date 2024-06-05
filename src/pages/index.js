@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import BrowserOnly from "@docusaurus/BrowserOnly";
-
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import HomepageHistory from "../components/HomepageHistory";
 import styles from "./index.module.css";
@@ -13,7 +12,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function HomepageHeader() {
-  AOS.init();
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -66,8 +67,6 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  AOS.init();
-
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout

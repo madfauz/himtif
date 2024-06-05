@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
@@ -8,7 +8,9 @@ import BrowserOnly from "@docusaurus/BrowserOnly";
 import "aos/dist/aos.css";
 
 export default function HomepageHistory() {
-  AOS.init();
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <BrowserOnly>
