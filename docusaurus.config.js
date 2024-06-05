@@ -13,7 +13,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -53,49 +53,51 @@ const config = {
         title: "HIMTIF Raharja",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/logo-himtif.png",
         },
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "belati/intro-belati",
             position: "left",
             label: "Belati",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
+            type: "doc",
+            docId: "divisi/ppo/pengenalan-ppo",
             position: "left",
+            label: "Divisi",
           },
+          { to: "/blog", label: "HIMTIF News", position: "left" },
+          // {
+          //   href: "https://github.com/facebook/docusaurus",
+          //   label: "GitHub",
+          //   position: "left",
+          // },
         ],
       },
       footer: {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "BELATI",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Web",
+                to: "/docs/belati/web/html/struktur-html",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Sosial Media",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Intagram",
+                href: "https://www.instagram.com/himtif?igsh=MTllM3lrbGd2N3J2OA==",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Tiktok",
+                href: "https://www.tiktok.com/@himtif.raharja?_t=8mgz0acDn17&_r=1",
               },
             ],
           },
@@ -103,17 +105,13 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
+                label: "HIMTIF News",
                 to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} HIMTIF Universitas Raharja.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -1,64 +1,108 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
-
-const FeatureList = [
-  {
-    title: "Easy to Use",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: "Focus on What Matters",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: "Powered by React",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
-
-function Feature({ Svg, title, description }) {
-  return (
-    <div className={clsx("col col--4")}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function HomepageFeatures() {
+  AOS.init();
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-      </div>
-    </section>
+    <BrowserOnly>
+      {() => (
+        <section className={styles.member_container} id="bph">
+          <h1 className={styles.very_main_title} data-aos="zoom-in-up">
+            Badan Pengurus Harian
+          </h1>
+          <h1
+            className={styles.main_title}
+            style={{ borderBottom: "0.5px dashed" }}
+            data-aos="zoom-in-down"
+          >
+            4 Pilar
+          </h1>
+          <div className={styles.member_frame}>
+            <div className={styles.member_division} data-aos="zoom-in-right">
+              <img
+                src={useBaseUrl("/img/bph/kamaludin-bg-2.png")}
+                alt="Ketua Umum"
+              />
+              <div className={styles.member_title}>
+                <h2>Ketua Umum</h2>
+                <h3>Muhamad Kamaludin</h3>
+              </div>
+            </div>
+            <div className={styles.member_division} data-aos="zoom-in-left">
+              <img
+                src={useBaseUrl("/img/bph/khoirul-bg-2.png")}
+                alt="Wakil Ketua Umum"
+              />
+              <div className={styles.member_title}>
+                <h2>Wakil Ketua Umum</h2>
+                <h3>M. Khoirul Mauludi</h3>
+              </div>
+            </div>
+            <div className={styles.member_division} data-aos="zoom-in-right">
+              <img
+                src={useBaseUrl("/img/bph/najalia-bg-2.png")}
+                alt="Sekretaris"
+              />
+              <div className={styles.member_title}>
+                <h2>Sekretaris</h2>
+                <h3>Najalia Malika</h3>
+              </div>
+            </div>
+            <div className={styles.member_division} data-aos="zoom-in-left">
+              <img
+                src={useBaseUrl("/img/bph/wulan-bg-2.png")}
+                alt="Bendahara"
+              />
+              <div className={styles.member_title}>
+                <h2>Bendahara</h2>
+                <h3>Siti Wulandari</h3>
+              </div>
+            </div>
+          </div>
+          <h1
+            className={styles.main_title}
+            style={{ borderBottom: "0.5px dashed" }}
+            data-aos="zoom-in-down"
+          >
+            Divisi
+          </h1>
+          <div className={styles.member_frame}>
+            <div className={styles.member_division} data-aos="zoom-in-left">
+              <img src={useBaseUrl("/img/bph/ppo-bg-2.png")} alt="Divisi PPO" />
+              <div className={styles.member_title}>
+                <h2>PPO</h2>
+                <h3>M. Khairul Abror - Retno Dewi A.</h3>
+              </div>
+            </div>
+            <div className={styles.member_division} data-aos="zoom-in-right">
+              <img src={useBaseUrl("/img/bph/ppk-bg-2.png")} alt="Divisi PPK" />
+              <div className={styles.member_title}>
+                <h2>PPK</h2>
+                <h3>Ahmad Fauzi - Tito Tri A.</h3>
+              </div>
+            </div>
+            <div className={styles.member_division} data-aos="zoom-in-left">
+              <img src={useBaseUrl("/img/bph/pmk-bg-2.png")} alt="Divisi PMK" />
+              <div className={styles.member_title}>
+                <h2>PMK</h2>
+                <h3>Faris Abqari - M. Amar Subhan</h3>
+              </div>
+            </div>
+            <div className={styles.member_division} data-aos="zoom-in-right">
+              <img src={useBaseUrl("/img/bph/mbk-bg-2.png")} alt="Divisi MBK" />
+              <div className={styles.member_title}>
+                <h2>MBK</h2>
+                <h3>Berhat Sandi S. - Rifan Pamungkas </h3>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+    </BrowserOnly>
   );
 }
