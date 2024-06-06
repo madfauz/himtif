@@ -70,7 +70,12 @@
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 0;
+  }
+  .heroBanner .header_container {
+    position: relative;
+    margin: 26px auto;
+    z-index: 2;
   }
 }
 
@@ -81,17 +86,27 @@
   margin: 10px auto;
 }
 
-@media only screen and (max-width: 800px) {
+.cover {
+  z-index: 1;
+  opacity: 0.2;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
   .cover {
     z-index: 1;
     opacity: 0.2;
     position: absolute;
-    height: 100%;
     width: auto;
+    height: 100%;
+    object-fit: cover;
   }
+}
+
+@media only screen and (max-width: 650px) {
 }
 
 @media only screen and (max-width: 550px) {
@@ -129,6 +144,7 @@
     justify-content: center;
     margin: 8px auto;
     width: auto;
-    height: 40px;
+    padding: 0 14px;
+    height: 38px;
   }
 }
