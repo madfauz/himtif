@@ -53,6 +53,32 @@ const sidebars = {
             "belati/web/javascript/dasar",
             "belati/web/javascript/operator",
             "belati/web/javascript/pengkondisian",
+            "belati/web/javascript/perulangan",
+          ],
+        },
+      ],
+      "UI/UX Design": [
+        {
+          label: "Pengenalan",
+          type: "category",
+          items: [
+            "belati/ui-ux-design/pengenalan/apa-itu-ui-ux",
+            "belati/ui-ux-design/pengenalan/perbedaan",
+            "belati/ui-ux-design/pengenalan/contoh-perbedaan",
+            "belati/ui-ux-design/pengenalan/pertanyaan-ui-ux",
+          ],
+        },
+        {
+          label: "Design Thinking",
+          type: "category",
+          items: [
+            "belati/ui-ux-design/design-thinking/apa-itu-design-thinking",
+            "belati/ui-ux-design/design-thinking/apa-saja-proses",
+            "belati/ui-ux-design/design-thinking/design-thinking-emphatize",
+            "belati/ui-ux-design/design-thinking/design-thinking-define",
+            "belati/ui-ux-design/design-thinking/design-thinking-ideate",
+            "belati/ui-ux-design/design-thinking/design-thinking-prototype",
+            "belati/ui-ux-design/design-thinking/design-thinking-test",
           ],
         },
       ],

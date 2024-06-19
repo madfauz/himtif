@@ -71,7 +71,7 @@ Digunakan untuk membandingkan dua buat pernyataan.
 - `||` : Logika or
 - `!` : Logika not
 
-### Contoh Operator Penugasan
+### Contoh Operator Logika
 
 ```jsx title="script.js"
 let hasil = 4 > 6 || 7 < 1;

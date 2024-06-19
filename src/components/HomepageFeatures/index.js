@@ -1,30 +1,22 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./styles.module.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import BrowserOnly from "@docusaurus/BrowserOnly";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 export default function HomepageFeatures() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <BrowserOnly>
       {() => (
         <section className={styles.member_container} id="bph">
-          <h1 className={styles.very_main_title} data-aos="zoom-in-up">
-            Badan Pengurus Harian
-          </h1>
+          <h1 className={styles.very_main_title}>Badan Pengurus Harian</h1>
           <h1
             className={styles.main_title}
             style={{ borderBottom: "0.5px dashed" }}
-            data-aos="zoom-in-down"
           >
             4 Pilar
           </h1>
           <div className={styles.member_frame}>
-            <div className={styles.member_division} data-aos="zoom-in-right">
+            <div className={styles.member_division}>
               <img
                 src={useBaseUrl("/img/bph/kamaludin-bg-2.png")}
                 alt="Ketua Umum"
@@ -34,7 +26,7 @@ export default function HomepageFeatures() {
                 <h3>Muhamad Kamaludin</h3>
               </div>
             </div>
-            <div className={styles.member_division} data-aos="zoom-in-left">
+            <div className={styles.member_division}>
               <img
                 src={useBaseUrl("/img/bph/khoirul-bg-2.png")}
                 alt="Wakil Ketua Umum"
@@ -44,7 +36,7 @@ export default function HomepageFeatures() {
                 <h3>M. Khoirul Mauludi</h3>
               </div>
             </div>
-            <div className={styles.member_division} data-aos="zoom-in-right">
+            <div className={styles.member_division}>
               <img
                 src={useBaseUrl("/img/bph/najalia-bg-2.png")}
                 alt="Sekretaris"
@@ -54,7 +46,7 @@ export default function HomepageFeatures() {
                 <h3>Najalia Malika</h3>
               </div>
             </div>
-            <div className={styles.member_division} data-aos="zoom-in-left">
+            <div className={styles.member_division}>
               <img
                 src={useBaseUrl("/img/bph/wulan-bg-2.png")}
                 alt="Bendahara"
@@ -68,33 +60,32 @@ export default function HomepageFeatures() {
           <h1
             className={styles.main_title}
             style={{ borderBottom: "0.5px dashed" }}
-            data-aos="zoom-in-down"
           >
             Divisi
           </h1>
           <div className={styles.member_frame}>
-            <div className={styles.member_division} data-aos="zoom-in-left">
+            <div className={styles.member_division}>
               <img src={useBaseUrl("/img/bph/ppo-bg-2.png")} alt="Divisi PPO" />
               <div className={styles.member_title}>
                 <h2>PPO</h2>
                 <h3>M. Khairul Abror - Retno Dewi A.</h3>
               </div>
             </div>
-            <div className={styles.member_division} data-aos="zoom-in-right">
+            <div className={styles.member_division}>
               <img src={useBaseUrl("/img/bph/ppk-bg-2.png")} alt="Divisi PPK" />
               <div className={styles.member_title}>
                 <h2>PPK</h2>
                 <h3>Ahmad Fauzi - Tito Tri A.</h3>
               </div>
             </div>
-            <div className={styles.member_division} data-aos="zoom-in-left">
+            <div className={styles.member_division}>
               <img src={useBaseUrl("/img/bph/pmk-bg-2.png")} alt="Divisi PMK" />
               <div className={styles.member_title}>
                 <h2>PMK</h2>
                 <h3>Faris Abqari - M. Amar Subhan</h3>
               </div>
             </div>
-            <div className={styles.member_division} data-aos="zoom-in-right">
+            <div className={styles.member_division}>
               <img src={useBaseUrl("/img/bph/mbk-bg-2.png")} alt="Divisi MBK" />
               <div className={styles.member_title}>
                 <h2>MBK</h2>

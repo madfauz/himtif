@@ -1,25 +1,16 @@
-import React, { useEffect } from "react";
+import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import AOS from "aos";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
-import "aos/dist/aos.css";
-
 export default function HomepageHistory() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <BrowserOnly>
       {() => (
         <section className={styles.container}>
-          <h1 className={styles.title} data-aos="fade-down">
-            Sejarah HIMTIF
-          </h1>
-          <h2 className={styles.content} data-aos="fade-up">
+          <h1 className={styles.title}>Sejarah HIMTIF</h1>
+          <h2 className={styles.content}>
             HIMTIF berdiri pada Tanggal 10 JUNI 2001 karena faktor keresahan
             Mahasiswa akhirnya Mahasiswa itu membuat suatu perkumpulan khususnya
             Mahasiswa-mahasiswa Perguruan Tinggi Raharja dan pada akhirnya

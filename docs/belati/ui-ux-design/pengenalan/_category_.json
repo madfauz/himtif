@@ -1,6 +1,6 @@
 {
-  "label": "Vol. 3 Javascript",
-  "position": 4,
+  "label": "Vol. 1 Pengenalan",
+  "position": 1,
   "link": {
     "type": "generated-index",
     "description": "5 minutes to learn the most important Docusaurus concepts."

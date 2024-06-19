@@ -1,13 +1,16 @@
-let grade = "B";
-let msg;
-switch (grade) {
-  case "A":
-    console.log("Nilai kamu Sangat Bagus!");
-    break;
-  case "B":
-    console.log("Nilai kamu Bagus!");
-    break;
-  case "C":
-    console.log("Nilai kamu Cukup!");
-    break;
+const peserta = [
+  {
+    nama: "Ethan Raka",
+    nim: 2247589109,
+    jurusan: "Teknik Informatika",
+  },
+  {
+    nama: "Juwita Malaka",
+    nim: 2278907162,
+    jurusan: "Sistem Informasi",
+  },
+];
+
+for (data of peserta) {
+  console.log(`Nama peserta : ${data["nama"]} | NIM : ${data["nim"]}`);
 }

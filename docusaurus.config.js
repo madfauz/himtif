@@ -86,6 +86,10 @@ const config = {
                 label: "Web",
                 to: "/docs/belati/web/html/struktur-html",
               },
+              {
+                label: "UI/UX Design",
+                to: "/docs/belati/ui-ux-design/pengenalan/apa-itu-ui-ux",
+              },
             ],
           },
           {
