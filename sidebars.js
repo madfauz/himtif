@@ -54,7 +54,13 @@ const sidebars = {
             "belati/web/javascript/operator",
             "belati/web/javascript/pengkondisian",
             "belati/web/javascript/perulangan",
+            "belati/web/javascript/function",
           ],
+        },
+        {
+          label: "Node JS dan Database",
+          type: "category",
+          items: ["belati/web/nodejs-database/pengenalan"],
         },
       ],
       "UI/UX Design": [
