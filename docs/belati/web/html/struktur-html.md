@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Pengenalan HTML
 
-HTML (Hyper Markup Language) adalah bahasa markup yang digunakan untuk membuat dan menyusun konten pada halaman web. HTML digunakan untuk mendefinisikan struktur dan tampilan halaman web serta mengintegrasikan elemen-elemen multimedia seperti gambar, video, audio, dan hyperlink.
+HTML (Hypertext Markup Language) adalah bahasa markup yang digunakan untuk membuat dan menyusun konten pada halaman web. HTML digunakan untuk mendefinisikan struktur dan tampilan halaman web serta mengintegrasikan elemen-elemen multimedia seperti gambar, video, audio, dan hyperlink.
 
 Pada dasarnya, HTML menggunakan **markup** atau tanda-tanda khusus yang disebut **tag** untuk memberikan instruksi kepada browser tentang bagaimana menyajikan konten pada halaman web. Setiap tag biasanya memiliki awalan dan penutupan yang berarti tag tersebut membentuk suatu elemen yang dibungkus oleh tanda pembuka dan penutup.
 

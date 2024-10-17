@@ -10,7 +10,7 @@ Properti display dalam CSS digunakan untuk mengontrol bagaimana elemen HTML dita
 
 - `block` adalah nilai default yang menampilkan elemen sebagai blok, menempati seluruh lebar yang tersedia dan memulai baris baru. Beberapa contoh tag block adalah : `<form>`, `<div>`, `<p>`, `<nav>`, `<footer>`, `<video>`.
 - `inline` untuk menampilkan elemen sebagai elemen inline, di mana elemen hanya menempati ruang yang dibutuhkannya dan tidak memulai baris baru. Properti `width` dan `height` tidak memiliki efek. Beberapa contoh tag inline adalah : `<a>`, `<span>`, `<button>`, `<select>`, `<label>`, `<input>`
-- `inline-block` adalah elemen yang di format inline, tetapi bisa emngatur properti `width` dan `height`.
+- `inline-block` adalah elemen yang di format inline, tetapi bisa mengatur properti `width` dan `height`.
 - `none` digunakan untuk menyembunyikan elemen sepenuhnya dari tampilan. Elemen tidak akan menempati ruang apa pun di halaman web.
 - `flex` untuk mengubah elemen menjadi item flexbox, memungkinkan tata letak yang lebih fleksibel dan responsif.
 

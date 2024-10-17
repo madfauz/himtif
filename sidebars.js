@@ -33,35 +33,35 @@ const sidebars = {
             "belati/web/html/form",
           ],
         },
-        {
-          label: "CSS",
-          type: "category",
-          items: [
-            "belati/web/css/dasar",
-            "belati/web/css/box-sizing",
-            "belati/web/css/text-formating",
-            "belati/web/css/display",
-            "belati/web/css/pseudo-class",
-            "belati/web/css/grid-layout",
-            "belati/web/css/flex-box",
-          ],
-        },
-        {
-          label: "Javascript",
-          type: "category",
-          items: [
-            "belati/web/javascript/dasar",
-            "belati/web/javascript/operator",
-            "belati/web/javascript/pengkondisian",
-            "belati/web/javascript/perulangan",
-            "belati/web/javascript/function",
-          ],
-        },
-        {
-          label: "Node JS dan Database",
-          type: "category",
-          items: ["belati/web/nodejs-database/pengenalan"],
-        },
+        // {
+        //   label: "CSS",
+        //   type: "category",
+        //   items: [
+        //     "belati/web/css/dasar",
+        //     "belati/web/css/box-sizing",
+        //     "belati/web/css/text-formating",
+        //     "belati/web/css/display",
+        //     "belati/web/css/pseudo-class",
+        //     "belati/web/css/grid-layout",
+        //     "belati/web/css/flex-box",
+        //   ],
+        // },
+        // {
+        //   label: "Javascript",
+        //   type: "category",
+        //   items: [
+        //     "belati/web/javascript/dasar",
+        //     "belati/web/javascript/operator",
+        //     "belati/web/javascript/pengkondisian",
+        //     "belati/web/javascript/perulangan",
+        //     "belati/web/javascript/function",
+        //   ],
+        // },
+        // {
+        //   label: "Node JS dan Database",
+        //   type: "category",
+        //   items: ["belati/web/nodejs-database/pengenalan"],
+        // },
       ],
       "UI/UX Design": [
         {

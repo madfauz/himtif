@@ -47,6 +47,6 @@ HTML mengdukung untuk pembuatan tabel. Beberapa tag dasar yang sering digunakan 
 
 :::info Catatan
 
-Untuk menampilkan border pada tabel bisa menggunakan properti css `border` yang nanti akan kita pelajari.
+Untuk menampilkan border pada tabel bisa menggunakan attribute border atau properti css `border` yang nanti akan kita pelajari.
 
 :::

@@ -15,7 +15,7 @@ Langkah awal dalam membuat Flexbox model adalah dengan mendefinisikan sebuah `fl
 Beberapa properti dari Flex box antara lain :
 
 - `flex-direction` untuk mendefinisikan arah dari container untuk menumpuk flex item. Misal, ingin menumpuk item ke bawah : `flex-direction: column;`
-- `flex-wrap` menentukan apakah item di flex container harus paksa sejajarkan atau tidak ketika ukuran item sudah melewati flex container. Misal, ingin membuat item-item di flex container tidak di paksa sejajar dan akan turun kebawah ketika ukurannya sudah melewati flex container : `flex-wrap: wrap;`
+- `flex-wrap` menentukan apakah item di flex container harus dipaksa sejajarkan atau tidak ketika ukuran item sudah melewati flex container. Misal, ingin membuat item-item di flex container tidak di paksa sejajar dan akan turun kebawah ketika ukurannya sudah melewati flex container : `flex-wrap: wrap;`
 - `flex-flow` adalah shorthand untuk mengatur `flex-direction` dan `flex-wrap`. Misal, ingin mengatur elemen ke horizontal dan akan turun ketika sudah tidak memenuhi ukuran flex container : `flex-flow: row wrap;`
 - `justify-content` untuk menyelaraskan item-item flex. Misal, ingin menyelaraskan item ke posisi akhir (bagian kanan) dari container : `justify-content: flex-end;`
 - `align-items` untuk menyelaraskan item secara vertical (ketika arah containernya baris). Misal, ingin menyelaraskan item ke tengah secara vertical : `align-items: center;`

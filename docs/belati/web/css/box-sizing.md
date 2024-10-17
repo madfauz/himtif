@@ -36,7 +36,7 @@ Untuk mengatur ukuran lebar dan tinggi suatu elemen HTML kita memerlukan propert
 
 ### Catatan
 
-Untuk satuan yang dipakai dalam menentukan ukuran elemen kalian bisa menggunakan `px`, `%`, `em`, `rem`
+Untuk satuan yang dipakai dalam menentukan ukuran elemen kalian bisa menggunakan `px`, `%`, `em`, `rem`, `vh`, `vw`.
 
 ## Jarak elemen
 

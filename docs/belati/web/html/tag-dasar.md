@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Common Tag
 
-Tag di dalam HTML didefinisikan dengan `<namaTag>` lalu `nilai` dan diakhiri dengan `</namaTag>` . Beberapa contoh Tag dasar yang sering digunakan adalah :
+Tag di dalam HTML di definisikan dengan `<namaTag>` lalu `nilai` dan diakhiri dengan `</namaTag>` . Beberapa contoh Tag dasar yang sering digunakan adalah :
 
 - `<div>` digunakan untuk membuat elemen Block (Tag setelah elemen ini akan dicetak ke bawah)
 - `<span>` digunakan untuk membuat elemen Inline (Tag setelah elemen ini akan dicetak sejajar kesamping)
@@ -36,7 +36,7 @@ Tag di dalam HTML didefinisikan dengan `<namaTag>` lalu `nilai` dan diakhiri den
 
 ## List Tag
 
-Terdapat tag untuk membuat sebuah list didalam HTML, dibagi menjadi 2 jenis yaitu `order list` dan `unorder list` :
+Terdapat tag untuk membuat sebuah list di dalam HTML, dibagi menjadi 2 jenis yaitu `order list` dan `unorder list` :
 
 - `<ol>` untuk membuat order list
 - `<ul>` untuk membuat unorder list

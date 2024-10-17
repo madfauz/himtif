@@ -47,8 +47,12 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    // /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+
+    {
+      colorMode: {
+        defaultMode: "dark",
+      },
       navbar: {
         title: "HIMTIF Raharja",
         logo: {
@@ -121,7 +125,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
+    },
 };
 
 module.exports = config;
