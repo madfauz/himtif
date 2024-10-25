@@ -46,17 +46,17 @@ const sidebars = {
             "belati/web/css/flex-box",
           ],
         },
-        // {
-        //   label: "Javascript",
-        //   type: "category",
-        //   items: [
-        //     "belati/web/javascript/dasar",
-        //     "belati/web/javascript/operator",
-        //     "belati/web/javascript/pengkondisian",
-        //     "belati/web/javascript/perulangan",
-        //     "belati/web/javascript/function",
-        //   ],
-        // },
+        {
+          label: "Javascript",
+          type: "category",
+          items: [
+            "belati/web/javascript/dasar",
+            "belati/web/javascript/operator",
+            "belati/web/javascript/pengkondisian",
+            "belati/web/javascript/perulangan",
+            "belati/web/javascript/function",
+          ],
+        },
         // {
         //   label: "Node JS dan Database",
         //   type: "category",
